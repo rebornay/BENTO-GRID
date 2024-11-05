@@ -31,16 +31,25 @@ h1, h2, h3, h4, h5, h6 {
     --light-pink: #FAEEE2;
     --light-blue: #DCD1FC;
     --font-size-large: 2.5rem;
+    --font-size-medium: 1.5rem;
+    --main-bg-color: #f5f5f5;
   }
 
   body {
     font-family: 'DM Sans', sans-serif;
     padding: 2rem 1rem;
+    background-color: var(--main-bg-color);
   }
 
 main {
     font-size: normal;
 }
+
+section {
+    padding-block-end: 2rem;
+}
+
+/* ***********FIRST DIV*********************** */
 
 .first-text-box {
     background-color: var(--primary-color);
@@ -54,17 +63,37 @@ main {
     font-size: var(--font-size-large);
     font-style: normal;
     font-weight: 500;
+    line-height: 1.1;
 }
 
 .first-text-box h1 .ten-x {
     color: var(--secondary-color);
 }
 
-.first-img {
+.first-img, .second-img {
     padding: 1rem;
+    margin: 0 auto;
 }
 
 .first-text-box p {
     font-size: 1.2rem;
     color: #ffffff;
+}
+
+/* ***********SECOND DIV*********************** */
+
+.white-box {
+    background-color: #ffffff;
+    /* border: 1px solid red; */
+    padding: 1rem .5rem;
+    border-radius: 10px;
+}
+
+.white-box-h1 {
+    color: #000000;
+    font-size: var(--font-size-medium);
+    text-align: left;
+    font-weight: 600;
+    padding: 0 .5rem;
+    line-height: 1.2;
 }

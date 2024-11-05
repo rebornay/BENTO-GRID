@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+p {
+    text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+:root {
+    --primary-color: #7651DC;
+    --secondary-color: #FFCC69;
+    --light-pink: #FAEEE2;
+    --light-blue: #DCD1FC;
+    --font-size-large: 2.5rem;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    padding: 2rem 1rem;
+  }
+
+main {
+    font-size: normal;
+}
+
+.first-text-box {
+    background-color: var(--primary-color);
+    padding-block: 2rem 2.5rem;
+    padding-inline: 3rem;
+    border-radius: 10px;
+}
+
+.first-text-box h1 {
+    color: #ffffff;
+    font-size: var(--font-size-large);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.first-text-box h1 .ten-x {
+    color: var(--secondary-color);
+}
+
+.first-img {
+    padding: 1rem;
+}
+
+.first-text-box p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}

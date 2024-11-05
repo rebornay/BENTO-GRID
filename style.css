@@ -187,3 +187,29 @@ section {
     width: 70%;
     height: auto;
 }
+
+/* ***********SEVENTH DIV*********************** */
+
+.seventh-section {
+    padding-block: 1rem 1.5rem;
+    padding-inline: 1.5rem;
+    background-color: var(--light-pink);
+    border-radius: 10px;
+}
+
+.seventh-section-h1 {
+    text-align: left;
+    font-size: var(--font-size-max-medium);
+    font-weight: 600;
+    line-height: 1;
+    padding-block: 1rem 1.5rem;
+}
+.second-span {
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+.seventh-img {
+    width: 70%;
+    height: auto;
+}

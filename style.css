@@ -213,3 +213,25 @@ section {
     width: 70%;
     height: auto;
 }
+
+
+/* ***********SEVENTH DIV*********************** */
+
+.eight-section {
+    padding: 1.5rem;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.eight-section-h1 {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    padding-block: 1rem 1.5rem;
+}
+
+.eight-img {
+    width: 70%;
+    height: auto;
+}

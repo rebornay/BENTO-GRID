@@ -160,3 +160,30 @@ section {
     font-weight: 550;
     color: #ffffff ;
 }
+
+/* ***********SIXTH DIV*********************** */
+.sixth-section {
+    background-color: #ffffff;
+    padding-block: 1rem 1.2rem;
+    padding-inline: 1rem;
+    border-radius: 10px;
+}
+
+.sixth-section-h1 {
+    text-align: left;
+    font-size: var(--font-size-large);
+    font-weight: 550;
+    padding-block: 1rem .5rem;
+}
+
+.sixth-p {
+    text-align: left;
+    font-size: var(--font-size-medium);
+    padding-block-end: 1rem;
+    font-weight: 500;
+}
+
+.sixth-img {
+    width: 70%;
+    height: auto;
+}

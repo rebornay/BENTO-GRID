@@ -144,3 +144,19 @@ section {
     line-height: 1.12;
     font-size: 1.3rem;
 }
+
+/* ***********FIFTH DIV*********************** */
+.fifth-section {
+    background-color: var(--primary-color);
+    padding-block: 2rem 1rem;
+    padding-inline: 3rem;
+    border-radius: 10px;
+}
+
+.fifth-section-h1 {
+    padding-block: 1.5rem;
+    line-height: 1;
+    font-size: var(--font-size-max-medium);
+    font-weight: 550;
+    color: #ffffff ;
+}
